@@ -1,0 +1,10 @@
+[tool.tartufo]
+cleanup = true
+entropy = true
+exclude-path-patterns = [
+  'package-lock.json',
+  'yarn.lock'
+]
+json = false
+regex = true
+repo-path = "."
