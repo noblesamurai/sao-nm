@@ -23,6 +23,18 @@
 - Optionally add coverage report
 - Optionally add CLI
 
+## Prerequisites
+
+```
+$ pip install pre-commit
+```
+
+## Installation
+
+```
+$ pre-commit install --install-hooks
+```
+
 ## Usage
 
 Install [SAO](https://github.com/saojs/sao) first.
@@ -41,7 +53,7 @@ sao saojs/sao-nm
 
 ### From npm
 
-```bash 
+```bash
 sao nm
 ```
 
